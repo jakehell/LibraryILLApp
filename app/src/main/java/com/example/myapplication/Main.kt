@@ -16,6 +16,12 @@ class Main : AppCompatActivity() {
             val intent = Intent(applicationContext, CreateProfile::class.java)
             startActivity(intent)
         }
+
+        showProfiles?.setOnClickListener { _ ->
+            val intent = Intent(applicationContext, ListProfiles::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }
