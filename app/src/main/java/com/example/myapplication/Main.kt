@@ -22,6 +22,11 @@ class Main : AppCompatActivity() {
             startActivity(intent)
         }
 
+        if(ApplicationVariables.getProfile() != null)
+        {
+            currentProfileInfo.text = ApplicationVariables.getProfile()?.firstName + " " + ApplicationVariables.getProfile()?.lastName
+        }
+
     }
 
 }

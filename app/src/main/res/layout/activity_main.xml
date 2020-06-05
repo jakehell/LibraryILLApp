@@ -21,6 +21,10 @@
                 android:layout_height="wrap_content" android:id="@+id/createProfile"
         />
 
+        <TextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/currentProfileInfo" android:gravity="center"/>
         <FrameLayout
                 android:id="@+id/createProfileFragment"
                 android:layout_width="match_parent"
